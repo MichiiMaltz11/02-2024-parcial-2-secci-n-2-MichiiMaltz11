@@ -1,0 +1,23 @@
+.header {
+    background-image: url('/src/assets/fondo.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    min-height: 235px;
+  }
+  
+  .header h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: clamp(30px,3vw,40px)
+    
+  }
+
+  
